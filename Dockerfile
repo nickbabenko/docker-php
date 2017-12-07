@@ -17,8 +17,12 @@ RUN buildDeps=" \
         libldap2-dev \
         libmemcachedutil2 \
         libpng-dev \
+        jpeg-dev \
         libpq-dev \
         libxml2-dev \
+        libwebp-dev \
+        freetype-dev \
+        libpng-dev \
     " \
     && apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y $buildDeps $runtimeDeps \
     && docker-php-ext-install bcmath bz2 calendar iconv intl mbstring mysqli opcache pdo_mysql pdo_pgsql pgsql soap zip \
