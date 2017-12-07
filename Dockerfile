@@ -21,7 +21,7 @@ RUN buildDeps=" \
         libpq-dev \
         libxml2-dev \
         libwebp-dev \
-        freetype-dev \
+        libfreetype-dev \
         libpng-dev \
     " \
     && apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y $buildDeps $runtimeDeps \
