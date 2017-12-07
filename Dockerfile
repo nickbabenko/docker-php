@@ -17,7 +17,7 @@ RUN buildDeps=" \
         libldap2-dev \
         libmemcachedutil2 \
         libpng-dev \
-        jpeg-dev \
+        libjpeg-dev \
         libpq-dev \
         libxml2-dev \
         libwebp-dev \
